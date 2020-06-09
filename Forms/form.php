@@ -27,7 +27,7 @@
         <a href="form.php?enlace=2" >Enviar</a>
 
         <?php
-        
+        echo "holitas";
         ?>
 
     </body>
