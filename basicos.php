@@ -1,7 +1,7 @@
 <?php
 // PHP es un lenguaje Flexible
 
-
+$cadena = "cadenita";
 
 //Entero
 
