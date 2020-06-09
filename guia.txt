@@ -1,0 +1,128 @@
+INTRODUCCIÓN
+
+Que es PHP y donde se usa
+Instalación de un servidor local
+
+COMENZANDO CON PHP
+
+Insertando código PHP
+Instrucciones básicas
+Separación de instrucciones
+Comentarios
+Variables
+Palabras reservadas en PHP
+Buenas prácticas
+Averiguar el tipo de variable
+Tipo de Datos Escalares
+Enteros
+Float/double
+Cadenas y Secuencias de escape
+Boleanos
+Tipos de Datos Compuestos
+Array
+Object
+Callable
+Iterable
+Forzar tipo
+int
+float
+string
+array
+object
+Impresión
+echo
+print
+printf
+Constantes
+Definidas por el usuario
+Predefinidas
+
+OPERADORES
+
+Aritméticos
+De Asignación
+Comparación
+De ejecución
+De incremento y decremento
+Lógicos
+De cadena y concatenación
+Precedencia
+
+ESTRUCTURAS DE CONTROL
+
+Condicionales
+If
+If-else
+If-elseif-else
+Switch
+Estructuras repetitivas
+While
+Do- while
+For
+Foreach
+Break
+
+ARREGLOS O ARRAYS
+
+Unidimensional
+Predefinidos
+Asociativos
+Multidimensional
+Predefinidos
+Asociativos
+
+SESIONES
+
+Manejo de sesiones
+session_start
+$_session
+sesion_id
+session_name
+session_register
+session_unset
+session_destroy
+header
+
+COOKIES
+
+Creación y manejo de cookies
+SetCookie
+$_cookie
+
+MANEJO DE FICHEROS
+
+Creación, Apertura y Modificación
+fopen
+fwrite/fputs
+copy
+unlink
+rename
+filesize
+file
+
+INCLUSIÓN DE ARCHIVOS
+
+Inserción
+require
+include
+require_once
+include_once
+
+ACCESO A LA BASE DE DATOS
+
+Crear base de datos
+Conectarse a una base de datos
+Crear tablas
+Crear registros
+Consultar y ordenar registros
+Borrar registros
+Actualizar registros
+
+FUNCIONES
+
+Funciones propias
+Sin parámetros
+Con parámetros
+Funciones predefinidas mas usadas
+
+

@@ -1,0 +1,10 @@
+<hr>
+<h3>Lista de jugadores</h3>
+ Dariana perdió el juego
+ Jeniffer perdió el juego
+ Jeniffer perdió el juego
+ Lola ganó el juego
+ Juan perdió el juego
+ Humberto ganó el juego
+ Lalo perdió el juego
+ Lalo perdió el juego
