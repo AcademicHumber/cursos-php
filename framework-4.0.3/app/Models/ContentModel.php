@@ -9,7 +9,7 @@ class ContentModel extends Model{
 // Declarar en el modelo, variables con informacion sobre nuestra tabla
     
     // Tabla que se usará en este modelo
-    protected $table = "usuario";
+    protected $table = "contenidos";
     
     //Llave primaria de nuestra tabla
     protected $primaryKey = "id";
@@ -18,7 +18,7 @@ class ContentModel extends Model{
     protected $returnType = "array";
     
     //Configurar la eliminación de archivos (opcional)
-    protected $useSoftDeletes = true;
+    protected $useSoftDeletes = false;
     
     //Campos habilitados para su escritura en la tabla
     protected $allowedFields = ["titulo", "encabezado", "cuerpo"];

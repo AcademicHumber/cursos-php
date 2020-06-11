@@ -11,10 +11,13 @@
             //
             // Codigo de apertura de fomulario, equivalente a
             // <form action="Content/mostrar" method="POST" enctype="multipart/form-data">            
-            echo form_open_multipart("Content/mostrar");
-            ?>
+            echo form_open_multipart("Content/crear");
+            
+            // Comprobamos errores o exito en la consulta, luego de ejecutarla
+            echo $exito;
+            ?>            
             <table>              
-                <tbody>                                  
+                <tbody>                    
                     <tr>
                         <td><label>Titulo de la pàgina</label></td>
                         <td>                            
@@ -54,12 +57,19 @@
             </table>
             <?php
            // Cerrar formulario
-            echo form_close();
+            echo form_close();            
+            
+            // Generar un enlace hacia la lista con la funcion anchor(url, texto, [atributos])
+                        
+            echo anchor("Content/mostrar", "Ir a los articulos", ["class" => "boton"]);
+            
+            // La funcion anchor crea un enlace a una pagina determinada, en este caso es equivalente a: 
+            // <a href="Content/mostrar" class="boton">Ir a los articulos</a>
             ?>
             
         </div>    
 
-
+        
     </body>
 </html>
 
