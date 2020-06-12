@@ -1,5 +1,5 @@
 <?php
-use Models\UsuarioModel;
+use App\Models\UsuarioModel;
 namespace App\Controllers;
 
 class UsuarioController extends BaseController{
